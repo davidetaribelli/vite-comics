@@ -12,7 +12,6 @@ export default {
     AppMainDown,
     AppFooterUp,
     AppFooterDown,
-
   }
 }
 </script>
