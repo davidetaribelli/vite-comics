@@ -40,43 +40,43 @@ export default {
     </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .container-fluid {
     height: 16rem;
-}
 
-.container-fluid>.row {
-    height: 100%;
-}
+    .row {
+        height: 100%;
 
-.container-fluid>.row>img {
-    height: 100%;
-    object-fit: cover;
-    object-position: top;
+        img {
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+        }
+    }
 }
 
 .col-12 {
     position: relative;
-}
 
-.currentSeries {
-    position: absolute;
-    top: -1.4rem;
-    font-weight: 700;
-    background-color: #0282f9;
+    .currentSeries {
+        position: absolute;
+        top: -1.4rem;
+        font-weight: 700;
+        background-color: #0282f9;
+    }
 }
 
 .card_ {
     width: calc(100vw / 8 - 2em);
     height: calc(100vw / 8 - 2em);
-    margin: 1em
-}
+    margin: 1em;
 
-.card_ img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: top;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
 }
 
 .load_>button {

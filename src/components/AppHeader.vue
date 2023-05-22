@@ -39,7 +39,7 @@ export default {
     </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 img {
     height: 80%;
 }
@@ -47,9 +47,9 @@ img {
 div>a {
     font-size: 10px;
     height: 100%;
-}
 
-a:hover {
-    border-bottom: 5px solid #0282f9;
+    &:hover {
+        border-bottom: 5px solid #0282f9;
+    }
 }
 </style>

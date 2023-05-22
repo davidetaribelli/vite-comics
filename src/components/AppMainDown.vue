@@ -33,7 +33,7 @@ export default {
     </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .col-12 {
     min-height: 6.5rem;
 }

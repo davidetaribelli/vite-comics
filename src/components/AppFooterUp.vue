@@ -64,21 +64,21 @@ export default {
 </template>
 
 
-<style scoped>
+<style scoped lang="scss">
 li {
     cursor: pointer;
     list-style: none;
     color: #787373;
     font-size: 13px;
+
+    &:hover {
+        color: #0282f9;
+    }
 }
 
-li:hover {
-    color: #0282f9;
-}
-
-.img {
+.col-6>.img {
     height: 100%;
-    background-image: url(/img/dc-logo-bg.png);
+    background-image: url(img/dc-logo-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0;

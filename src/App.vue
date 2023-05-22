@@ -127,6 +127,6 @@ export default {
   </footer>
 </template>
 
-
-
-
+<style lang="scss">
+@use './general.scss' as *;
+</style>

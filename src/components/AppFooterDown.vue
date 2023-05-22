@@ -25,7 +25,7 @@ export default {
 </template>
 
 
-<style scoped>
+<style scoped lang="scss">
 span,
 img {
     cursor: pointer;
