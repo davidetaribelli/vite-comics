@@ -21,7 +21,7 @@ body {
 
 
 #footerUp {
-  background-image: url(../src/components/img/footer-bg.jpg);
+  background-image: url(/img/footer-bg.jpg);
   background-repeat: no-repeat;
 }
 

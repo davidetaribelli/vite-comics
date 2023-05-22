@@ -78,7 +78,7 @@ li:hover {
 
 .img {
     height: 100%;
-    background-image: url(./img/dc-logo-bg.png);
+    background-image: url(/img/dc-logo-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0;

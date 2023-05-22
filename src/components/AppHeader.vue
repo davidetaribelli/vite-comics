@@ -27,7 +27,7 @@ export default {
     <div class="container">
         <div class="row justify-content-between">
             <div class="col-4 d-flex align-items-center">
-                <img src="./img/dc-logo.png" alt="">
+                <img src="/img/dc-logo.png" alt="">
             </div>
             <div class="col-8 d-flex align-items-center justify-content-evenly">
                 <a v-for="list, i in listNav" class="text-decoration-none text-black mx-3 d-flex align-items-center"

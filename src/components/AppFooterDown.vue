@@ -13,11 +13,11 @@ export default {
             <div class="col-6 p-2 text-end d-flex align-items-center justify-content-end">
                 <span class="text-primary mx-3 fw-bolder">FOLLOW US</span>
                 <div class="d-flex align-items-center">
-                    <img class="ms-3" src="./img/footer-facebook.png" alt="facebook">
-                    <img class="ms-3" src="./img/footer-twitter.png" alt="twitter">
-                    <img class="ms-3" src="./img/footer-youtube.png" alt="youtube">
-                    <img class="ms-3" src="./img/footer-pinterest.png" alt="pinterest">
-                    <img class="ms-3" src="./img/footer-periscope.png" alt="periscope">
+                    <img class="ms-3" src="/img/footer-facebook.png" alt="facebook">
+                    <img class="ms-3" src="/img/footer-twitter.png" alt="twitter">
+                    <img class="ms-3" src="/img/footer-youtube.png" alt="youtube">
+                    <img class="ms-3" src="/img/footer-pinterest.png" alt="pinterest">
+                    <img class="ms-3" src="/img/footer-periscope.png" alt="periscope">
                 </div>
             </div>
         </div>
