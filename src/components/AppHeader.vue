@@ -25,12 +25,13 @@ export default {
 
 <template>
     <div class="container">
-        <div class="row justify-content-between p-2">
+        <div class="row justify-content-between">
             <div class="col-4 d-flex align-items-center">
                 <img src="./img/dc-logo.png" alt="">
             </div>
             <div class="col-8 d-flex align-items-center justify-content-evenly">
-                <a v-for="list, i in listNav" class="text-decoration-none text-black mx-3" href="#">
+                <a v-for="list, i in listNav" class="text-decoration-none text-black mx-3 d-flex align-items-center"
+                    href="#">
                     {{ list.option }}
                 </a>
             </div>
@@ -45,5 +46,10 @@ img {
 
 div>a {
     font-size: 10px;
+    height: 100%;
+}
+
+a:hover {
+    border-bottom: 5px solid #0282f9;
 }
 </style>
