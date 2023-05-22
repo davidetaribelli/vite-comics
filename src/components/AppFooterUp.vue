@@ -66,9 +66,14 @@ export default {
 
 <style scoped>
 li {
+    cursor: pointer;
     list-style: none;
     color: #787373;
     font-size: 13px;
+}
+
+li:hover {
+    color: #0282f9;
 }
 
 .img {

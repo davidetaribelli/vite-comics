@@ -25,4 +25,9 @@ export default {
 </template>
 
 
-<style scoped></style>
+<style scoped>
+span,
+img {
+    cursor: pointer;
+}
+</style>
