@@ -56,9 +56,6 @@ export default {
                     </div>
                 </div>
             </div>
-            <div class="col-6">
-                <div class="img"></div>
-            </div>
         </div>
     </div>
 </template>
@@ -76,11 +73,4 @@ li {
     }
 }
 
-.col-6>.img {
-    height: 100%;
-    background-image: url(img/dc-logo-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0;
-}
 </style>
